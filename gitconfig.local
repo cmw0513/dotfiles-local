@@ -1,0 +1,9 @@
+[alias]
+  pr = pull --rebase
+  uncommit = reset --soft HEAD^
+  set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+[user]
+  name = Christina Wolfe
+  email = cmw0513@gmail.com
+[branch]
+  autosetupmerge = true

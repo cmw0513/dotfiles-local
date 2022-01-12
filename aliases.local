@@ -1,0 +1,8 @@
+# Bundler
+alias be="bundle exec"
+
+# Docker
+alias dc="docker-compose"
+alias dcr="docker-compose run --rm"
+alias dcu="docker-compose up -d"
+alias dclf="docker-compose logs -f --tail=1"
